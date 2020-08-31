@@ -54,7 +54,6 @@ class MyChat(QMainWindow, form_class):
     def append_text(self):
         text = self.input_text.text()
         message = str(self.my_ip_addr + " : " + text)
-        #self.text_browser.append(message)
         self.user_r.publish('chat_server', message)
         self.input_text.clear()
 

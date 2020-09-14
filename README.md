@@ -1,1 +1,1 @@
-# -Chat-using-pyqt-and-redis
+# Chat-using-pyqt-and-redis
